@@ -27,4 +27,25 @@ function nowServing(maxDeli){
   }
 }
 
+let number = 0;
+function takeANumber(maxDeli){
+  number++;
+  maxDeli.push(number);
+  return `Welcome you're ticket number ${number}.`;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
